@@ -1,5 +1,5 @@
 ﻿
-namespace RandoOefeningenVoorDeFun
+namespace Slots
 {
     partial class Form1
     {
@@ -29,47 +29,35 @@ namespace RandoOefeningenVoorDeFun
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnKnop = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSpin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnKnop
+            // btnSpin
             // 
-            this.btnKnop.Location = new System.Drawing.Point(323, 200);
-            this.btnKnop.Name = "btnKnop";
-            this.btnKnop.Size = new System.Drawing.Size(120, 20);
-            this.btnKnop.TabIndex = 0;
-            this.btnKnop.Text = "Color fun";
-            this.btnKnop.UseVisualStyleBackColor = true;
-            this.btnKnop.Click += new System.EventHandler(this.btnKnop_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(323, 226);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 20);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Rainbow mode";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSpin.Font = new System.Drawing.Font("Microsoft Sans Serif", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpin.Location = new System.Drawing.Point(358, 350);
+            this.btnSpin.Name = "btnSpin";
+            this.btnSpin.Size = new System.Drawing.Size(75, 90);
+            this.btnSpin.TabIndex = 0;
+            this.btnSpin.Text = "Spin";
+            this.btnSpin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnKnop);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSpin);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnKnop;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSpin;
     }
 }
 

@@ -19,8 +19,7 @@ namespace RandoOefeningenVoorDeFun
             
             
             InitializeComponent();
-            g = CreateGraphics();
-            
+            g = CreateGraphics();           
             rng = new Random();
         }
 
